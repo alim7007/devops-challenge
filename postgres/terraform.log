@@ -1,0 +1,58 @@
+2025-07-21T22:20:10.347+0300 [INFO]  Terraform version: 1.5.7
+2025-07-21T22:20:10.349+0300 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2025-07-21T22:20:10.349+0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2025-07-21T22:20:10.349+0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2025-07-21T22:20:10.349+0300 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2025-07-21T22:20:10.349+0300 [INFO]  Go runtime version: go1.22.2
+2025-07-21T22:20:10.349+0300 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-07-21T22:20:10.349+0300 [DEBUG] Attempting to open CLI config file: /Users/_alim_lucky/.terraformrc
+2025-07-21T22:20:10.349+0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-07-21T22:20:10.349+0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-07-21T22:20:10.349+0300 [DEBUG] ignoring non-existing provider search directory /Users/_alim_lucky/.terraform.d/plugins
+2025-07-21T22:20:10.349+0300 [DEBUG] ignoring non-existing provider search directory /Users/_alim_lucky/Library/Application Support/io.terraform/plugins
+2025-07-21T22:20:10.349+0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2025-07-21T22:20:10.351+0300 [INFO]  CLI command args: []string{"apply"}
+2025-07-21T22:20:10.357+0300 [DEBUG] New state was assigned lineage "31c55afb-6379-77a5-17ba-0cdf1f20df69"
+2025-07-21T22:20:10.357+0300 [DEBUG] checking for provisioner in "."
+2025-07-21T22:20:10.358+0300 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2025-07-21T22:20:10.360+0300 [INFO]  backend/local: starting Apply operation
+2025-07-21T22:20:16.641+0300 [INFO]  Terraform version: 1.5.7
+2025-07-21T22:20:16.641+0300 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2025-07-21T22:20:16.641+0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2025-07-21T22:20:16.641+0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2025-07-21T22:20:16.641+0300 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2025-07-21T22:20:16.641+0300 [INFO]  Go runtime version: go1.22.2
+2025-07-21T22:20:16.641+0300 [INFO]  CLI args: []string{"terraform", "init"}
+2025-07-21T22:20:16.641+0300 [DEBUG] Attempting to open CLI config file: /Users/_alim_lucky/.terraformrc
+2025-07-21T22:20:16.641+0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-07-21T22:20:16.641+0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-07-21T22:20:16.641+0300 [DEBUG] ignoring non-existing provider search directory /Users/_alim_lucky/.terraform.d/plugins
+2025-07-21T22:20:16.641+0300 [DEBUG] ignoring non-existing provider search directory /Users/_alim_lucky/Library/Application Support/io.terraform/plugins
+2025-07-21T22:20:16.641+0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2025-07-21T22:20:16.641+0300 [INFO]  CLI command args: []string{"init"}
+2025-07-21T22:20:16.643+0300 [DEBUG] New state was assigned lineage "dcd94f60-83a5-3e7a-3410-4fd3194a70fc"
+2025-07-21T22:20:16.643+0300 [DEBUG] checking for provisioner in "."
+2025-07-21T22:20:16.645+0300 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2025-07-21T22:20:16.647+0300 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2025-07-21T22:20:16.956+0300 [DEBUG] GET https://registry.terraform.io/v1/providers/kreuzwerker/docker/versions
+2025-07-21T22:20:17.199+0300 [DEBUG] GET https://registry.terraform.io/v1/providers/kreuzwerker/docker/3.6.2/download/darwin/arm64
+2025-07-21T22:20:18.069+0300 [DEBUG] GET https://github.com/kreuzwerker/terraform-provider-docker/releases/download/v3.6.2/terraform-provider-docker_3.6.2_SHA256SUMS
+2025-07-21T22:20:19.441+0300 [DEBUG] GET https://github.com/kreuzwerker/terraform-provider-docker/releases/download/v3.6.2/terraform-provider-docker_3.6.2_SHA256SUMS.sig
+2025-07-21T22:46:35.225+0300 [INFO]  Terraform version: 1.5.7
+2025-07-21T22:46:35.225+0300 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2025-07-21T22:46:35.225+0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2025-07-21T22:46:35.225+0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2025-07-21T22:46:35.225+0300 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2025-07-21T22:46:35.225+0300 [INFO]  Go runtime version: go1.22.2
+2025-07-21T22:46:35.225+0300 [INFO]  CLI args: []string{"terraform", "destroy"}
+2025-07-21T22:46:35.226+0300 [DEBUG] Attempting to open CLI config file: /Users/_alim_lucky/.terraformrc
+2025-07-21T22:46:35.226+0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-07-21T22:46:35.226+0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-07-21T22:46:35.226+0300 [DEBUG] ignoring non-existing provider search directory /Users/_alim_lucky/.terraform.d/plugins
+2025-07-21T22:46:35.226+0300 [DEBUG] ignoring non-existing provider search directory /Users/_alim_lucky/Library/Application Support/io.terraform/plugins
+2025-07-21T22:46:35.226+0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2025-07-21T22:46:35.241+0300 [INFO]  CLI command args: []string{"destroy"}
+2025-07-21T22:46:35.260+0300 [DEBUG] New state was assigned lineage "64514e6c-eae7-46fe-10a0-2a550c560be6"
+2025-07-21T22:46:35.261+0300 [DEBUG] checking for provisioner in "."
+2025-07-21T22:46:35.262+0300 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2025-07-21T22:46:35.265+0300 [INFO]  backend/local: starting Apply operation
